@@ -1,8 +1,13 @@
 import { FC } from 'react'
 import { AppProps } from 'next/app'
 
-import { createGlobalStyle, ThemeProvider, DefaultTheme } from 'styled-components'
-import '../styles/globals.css'
+import {
+  createGlobalStyle,
+  ThemeProvider,
+  DefaultTheme
+} from 'styled-components'
+
+import { colors } from '@styles/colors'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -13,9 +18,7 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const theme: DefaultTheme = {
-  colors: {
-    primary: '#0070f3'
-  }
+  colors
 }
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
