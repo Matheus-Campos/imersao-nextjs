@@ -1,25 +1,8 @@
 import { FC } from 'react'
 import { AppProps } from 'next/app'
+import { ThemeProvider } from 'styled-components'
 
-import {
-  createGlobalStyle,
-  ThemeProvider,
-  DefaultTheme
-} from 'styled-components'
-
-import { colors } from '@styles/colors'
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-`
-
-const theme: DefaultTheme = {
-  colors
-}
+import { GlobalStyle, theme } from '@styles/index'
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (
