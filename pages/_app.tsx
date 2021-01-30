@@ -7,8 +7,8 @@ import { GlobalStyle, theme } from '@styles/index'
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
-      <GlobalStyle />
       <ThemeProvider theme={theme}>
+        <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
     </>

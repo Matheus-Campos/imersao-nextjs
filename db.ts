@@ -1,5 +1,5 @@
 export default {
-  bg: 'https://placehold.it/1368x768',
+  bg: 'https://wallpaperaccess.com/full/1821312.jpg',
   title: 'Título do Quiz',
   description: 'Descrição do quiz aqui',
   questions: [
