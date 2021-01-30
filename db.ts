@@ -1,7 +1,7 @@
 export default {
   bg: 'https://wallpaperaccess.com/full/1821312.jpg',
-  title: 'Título do Quiz',
-  description: 'Descrição do quiz aqui',
+  title: 'Saga Metroid',
+  description: 'Teste seus conhecimentos sobre a saga Metroid!',
   questions: [
     {
       image: 'https://placehold.it/400x400',
