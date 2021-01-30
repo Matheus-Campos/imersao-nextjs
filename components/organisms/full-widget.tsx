@@ -14,8 +14,8 @@ export const FullWidget: FC<FullWidgetProps> = ({ title, contents }) => {
           <h1>{title}</h1>
         </WidgetHeader>
       )}
-      {contents.map((content) => (
-        <WidgetContent>
+      {contents.map((content, index) => (
+        <WidgetContent key={index}>
           {content}
         </WidgetContent>
       ))}

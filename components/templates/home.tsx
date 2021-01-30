@@ -30,8 +30,10 @@ export const Home: FC<HomePageProps> = ({
 
         <FullWidget
           contents={[
-            <h1>Quizes da galera</h1>,
-            <p>Lorem ipsum dolor sit amet</p>
+            <>
+              <h1>Quizes da galera</h1>
+              <p>Lorem ipsum dolor sit amet</p>
+            </>
           ]}
         />
         <Footer />
