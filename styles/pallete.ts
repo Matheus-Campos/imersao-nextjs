@@ -4,5 +4,5 @@ export const pallete = {
   darkBlack: '#1c1814',
   white: '#ffffff',
   red: '#ff5722',
-  green: '#4caf50'
-}
+  green: '#4caf50',
+};

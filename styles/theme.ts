@@ -1,8 +1,8 @@
-import { DefaultTheme } from 'styled-components'
+import { DefaultTheme } from 'styled-components';
 
-import { colors } from '@styles/colors'
+import { colors } from '@styles/colors';
 
 export const theme: DefaultTheme = {
   colors,
-  borderRadius: '4px'
-}
+  borderRadius: '4px',
+};

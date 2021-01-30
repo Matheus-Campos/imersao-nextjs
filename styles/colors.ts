@@ -1,4 +1,4 @@
-import { pallete } from './pallete'
+import { pallete } from './pallete';
 
 export interface Colors {
   primary: string
@@ -15,5 +15,5 @@ export const colors: Colors = {
   mainBg: pallete.darkBlack,
   contrastText: pallete.white,
   success: pallete.green,
-  wrong: pallete.red
-}
+  wrong: pallete.red,
+};

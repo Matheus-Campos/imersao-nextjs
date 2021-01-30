@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -9,4 +9,4 @@ export const QuizContainer = styled.div`
     margin: auto;
     padding: 15px;
   }
-`
+`;

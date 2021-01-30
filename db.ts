@@ -12,11 +12,11 @@ export default {
         'Alternativa A',
         'Alternativa B',
         'Alternativa C',
-        'Alternative D'
-      ]
-    }
+        'Alternative D',
+      ],
+    },
   ],
   external: [
-    'https://github.com/Matheus-Campos'
+    'https://github.com/Matheus-Campos',
   ],
-}
+};

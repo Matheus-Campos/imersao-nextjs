@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Widget = styled.div`
   margin-top: 24px;
@@ -20,7 +20,7 @@ export const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
-`
+`;
 
 export const WidgetContent = styled.div`
   padding: 24px 32px 32px 32px;
@@ -34,7 +34,7 @@ export const WidgetContent = styled.div`
     list-style: none;
     padding: 0;
   }
-`
+`;
 
 export const WidgetHeader = styled.header`
   display: flex;
@@ -46,4 +46,4 @@ export const WidgetHeader = styled.header`
   * {
     margin: 0;
   }
-`
+`;

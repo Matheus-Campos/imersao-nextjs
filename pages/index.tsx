@@ -1,17 +1,15 @@
-import { NextPage } from 'next'
-import { Home as HomeTemplate } from '@components/templates'
+import { NextPage } from 'next';
+import { Home as HomeTemplate } from '@components/templates';
 
-import db from '../db'
+import db from '../db';
 
-const Home: NextPage = () => {
-  return (
-    <HomeTemplate
-      backgroundImage={db.bg}
-      githubProjectUrl="https://github.com/Matheus-Campos"
-      title={db.title}
-      description={db.description}
-    />
-  )
-}
+const Home: NextPage = () => (
+  <HomeTemplate
+    backgroundImage={db.bg}
+    githubProjectUrl="https://github.com/Matheus-Campos"
+    title={db.title}
+    description={db.description}
+  />
+);
 
-export default Home
+export default Home;

@@ -1,1 +1,1 @@
-export * from './full-widget'
+export * from './full-widget';
